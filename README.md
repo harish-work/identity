@@ -35,4 +35,13 @@ $ python manage.py runserver
 
 
 
+## Using Docker
+### Docker build
+```sh
+$ docker build -t identity .
+```
+### Docker Run
+```sh
+$ docker run -p 9000:8000 imageid
+```
 
